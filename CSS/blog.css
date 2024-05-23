@@ -1,0 +1,51 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    margin: 0%;
+    padding: 0%;
+    background-color: #061B08;
+}
+
+.navbar-brand img {
+    border-radius: 50%;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+
+.brand-text {
+    margin-top: 5px;
+}
+
+.brand-text h2 {
+    font-size: 2rem; /* Adjust font size */
+    color: #333;
+}
+
+.slogan {
+    font-size: 0.8rem;
+    color: black;
+}
+  
+.nav-link {
+    font-size: 20px !important;
+    font-weight: 500;
+    color: black;
+}
+
+.navbar-brand,
+.text-primary {
+    color: yellowgreen !important;
+}
+  
+.nav-link:hover {
+    color: green;
+}
+  
+p {
+    font-size: 18px;
+}
+
+.container1 {
+    margin-top: 100px !important;
+}

@@ -1,0 +1,343 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    margin: 0%;
+    padding: 0%;
+    background-color: #061B08;
+}
+
+.navbar-brand img {
+    border-radius: 50%;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+
+.brand-text {
+    margin-top: 5px;
+}
+
+.brand-text h2 {
+    font-size: 2rem; /* Adjust font size */
+    color: #333;
+}
+
+.slogan {
+    font-size: 0.8rem;
+    color: black;
+}
+  
+.nav-link {
+    font-size: 20px !important;
+    font-weight: 500;
+    color: black;
+}
+
+.navbar-brand,
+.text-primary {
+    color: #B8DA2E !important;
+}
+  
+.nav-link:hover {
+    color: green;
+}
+  
+p {
+    font-size: 18px;
+}
+
+
+
+.mainText h1 {
+    margin-top: 100px;
+    font-size: 55px;
+    color: white;
+}
+
+.mainText p {
+    color: yellow;
+}
+
+/* Custom styles for the button */
+.custom-button {
+    background-color: #ffc107; /* Yellow color */
+    color: #fff; /* White text color */
+    border: none; /* No border */
+    padding: 10px 20px; /* Padding */
+    font-size: 16px; /* Font size */
+    cursor: pointer; /* Cursor style */
+    transition: background-color 0.3s ease; /* Transition effect for color change */
+}
+
+/* Hover effect */
+.custom-button:hover {
+    background-color: #ffca28; /* Darker shade of yellow on hover */
+}
+
+/* Animation */
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.05);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.pulse-animation {
+    animation: pulse 1.5s infinite; /* Apply pulse animation */
+}
+
+
+.col1 {
+    border: 2px solid #9e6f41; /* blue outline */
+    background-color: #4c873f;
+    color: #fff;
+    padding: 20px;
+    margin: 10px;
+    margin-top: 50px; /* added margin-top */
+    transition: background-color 0.3s; /* animation */
+}
+
+/* CSS for hover animation */
+.col1:hover {
+    background-color: #326328; /* blue background color on hover */
+    color: #fff; /* white text color on hover */
+}
+
+.row button {
+    background-color: #a36816;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+
+@media (max-width: 576px) {
+    /* Adjust column layout for phone screens */
+    .col1 {
+        margin-bottom: 20px;
+    }
+}
+
+.head1 h1 {
+    text-align: center;
+    margin-top: 32px;
+}
+
+.head2 h1 {
+    text-align: center;
+    margin-top: 80px;
+}
+
+.bigger-text {
+    font-size: 3em; /* Adjust the font size as needed */
+    font-weight: bold;
+    margin-right: 20px; /* Adjust the margin as needed */
+}
+
+
+
+
+.card-group {
+    justify-content: center;
+    margin-top: 35px;
+  }
+  
+.card {
+    margin: 50px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Add shadow effect */
+    transition: all 0.3s ease; /* Add transition effect */
+}
+  
+.card:hover {
+    transform: translateY(-5px); /* Add lift effect on hover */
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3); /* Adjust shadow on hover */
+}
+
+
+/*contact form*/
+
+
+
+
+/*about*/
+
+.btn-primary {
+    background-color: #0a58ca !important;
+    border: none;
+}
+  
+.nav-link:hover {
+    color: #0a58ca;
+}
+  
+.btn-primary:hover {
+    background-color: #257dfd !important;
+}
+    
+.ionicons {
+    color: #0a58ca;
+    background-color: #f2f2f2;
+    padding: 10px;
+    height: 30px;
+    width: 30px;
+    margin-bottom: 12px;
+}
+  
+.nav-tabs {
+    border: none;
+}
+
+
+/*services*/
+
+span{
+    display: inline-block;
+    text-decoration: none;
+    color: inherit;
+}
+.section-head{
+    margin-bottom: 60px;
+}
+.section-head h4{
+    position: relative;
+    padding: 0;
+    color:#f91942;
+    line-height: 1;
+    letter-spacing: 0.3px;
+    font-size:34px;
+    font-weight:700;
+    text-align: center;
+    text-transform: none;
+    margin-bottom: 30px;
+}
+.section-head h4::before{
+    content:'';
+    width:60px;
+    height:3px;
+    background:#f91942;
+    position:absolute;
+    bottom:-10px;
+    left:0;
+    right:0;
+    margin:0 auto;
+}
+.section-head h4 span{
+    font-weight: 700;
+    padding-bottom: 5px;
+    color:#2f2f2f;
+} 
+.section-head p{
+    color:#818181;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+}
+.item{
+    background:#fff;
+    text-align: center;
+    padding:30px 25px;
+    box-shadow: 0 0 25px rgba(0,0,0,0.07);
+    border-radius: 20px;
+    margin-bottom: 30px;
+    border:5px solid rgba(0,0,0,0.07);
+    -webkit-transition:all 0.5s ease 0s;
+    transition:all 0.5s ease 0s;
+}
+.item:hover{
+    background:#f91942;
+    box-shadow: 0 8px 20px 0 rgba(0,0,0,0.2);
+    -webkit-transition:all 0.5s ease 0s;
+    transition:all 0.5s ease 0s;
+}
+.item:hover .item,
+.item:hover span.icon{
+    background:#fff;
+    border-radius: 10px;
+    -webkit-transition:all 0.5s ease 0s;
+    transition:all 0.5s ease 0s;
+}
+.item:hover h6,
+.item:hover p{
+    color:#fff;
+    -webkit-transition:all 0.5s ease 0s;
+    transition:all 0.5s ease 0s;
+}
+.item .icon{
+    font-size:40px;
+    margin-bottom: 25px;
+    color:#f91942;
+    width:90px;
+    height:90px;
+    line-height: 96px;
+    border-radius: 50px;
+}
+.item .feature_box_col_one{
+    background:rgba(247,198,5,0.2);
+    color:#f91942;
+}
+.item .feature_box_col_two{
+    background: rgba(255, 77, 28, 0.15);
+    color:#f91942;
+}
+.item .feature_box_col_three{
+    background:rgba(0,147,38,0.15);
+    color:#f91942;
+}
+.item .feature_box_col_four{
+    background:rgba(0,108,255,0.15);
+    color:#f91942;
+}
+.item .feature_box_col_five{
+    background:rgba(146,39,255,0.15);
+    color:#f91942;
+}
+.item .feature_box_col_six{
+    background:rgba(23,39,246,0.15);
+    color:#f91942;
+}
+.item p{
+    font-size: 15px;
+    line-height: 26px;
+}
+.item h6{
+    margin-bottom: 20px;
+    color:#2f2f2f;
+}
+
+
+/*blog*/
+
+
+
+  
+    
+  
+
+
+
+  
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    margin: 0%;
+    padding: 0%;
+    background-color: #061B08;
+}
+
+.navbar-brand img {
+    border-radius: 50%;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+
+.brand-text {
+    margin-top: 5px;
+}
+
+.brand-text h2 {
+    font-size: 2rem; /* Adjust font size */
+    color: #333;
+}
+
+.slogan {
+    font-size: 0.9rem;
+    color: black;
+}
+  
+.nav-link {
+    font-size: 20px !important;
+    font-weight: 500;
+    color: black;
+}
+
+.navbar-brand,
+.text-primary {
+    color: #B8DA2E !important;
+}
+  
+.nav-link:hover {
+    color: green;
+}
+  
+p {
+    font-size: 18px;
+}
+
+
+
+.mainText h1 {
+    margin-top: 100px;
+    font-size: 55px;
+    color: white;
+}
+
+.mainText p {
+    color: yellow;
+}
+
+/* Custom styles for the button */
+.custom-button {
+    background-color: #ffc107; /* Yellow color */
+    color: #fff; /* White text color */
+    border: none; /* No border */
+    padding: 10px 20px; /* Padding */
+    font-size: 16px; /* Font size */
+    cursor: pointer; /* Cursor style */
+    transition: background-color 0.3s ease; /* Transition effect for color change */
+}
+
+/* Hover effect */
+.custom-button:hover {
+    background-color: #ffca28; /* Darker shade of yellow on hover */
+}
+
+/* Animation */
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.05);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.pulse-animation {
+    animation: pulse 1.5s infinite; /* Apply pulse animation */
+}
+
+
+.col1 {
+    border: 2px solid #9e6f41; /* blue outline */
+    background-color: #4c873f;
+    color: #fff;
+    padding: 20px;
+    margin: 10px;
+    margin-top: 50px; /* added margin-top */
+    transition: background-color 0.3s; /* animation */
+}
+
+/* CSS for hover animation */
+.col1:hover {
+    background-color: #326328; /* blue background color on hover */
+    color: #fff; /* white text color on hover */
+}
+
+.row button {
+    background-color: #a36816;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+
+@media (max-width: 576px) {
+    /* Adjust column layout for phone screens */
+    .col1 {
+        margin-bottom: 20px;
+    }
+}
+
+.head1 h1 {
+    text-align: center;
+    margin-top: 32px;
+}
+
+.head2 h1 {
+    text-align: center;
+    margin-top: 80px;
+}
+
+.bigger-text {
+    font-size: 3em; /* Adjust the font size as needed */
+    font-weight: bold;
+    margin-right: 20px; /* Adjust the margin as needed */
+}
+
+
+
+
+.card-group {
+    justify-content: center;
+    margin-top: 35px;
+  }
+  
+.card {
+    margin: 50px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Add shadow effect */
+    transition: all 0.3s ease; /* Add transition effect */
+}
+  
+.card:hover {
+    transform: translateY(-5px); /* Add lift effect on hover */
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3); /* Adjust shadow on hover */
+}
+
+
+
+
+
+  
+    
+  
+
+
+
+  
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
